@@ -52,9 +52,9 @@
 /* Estilos da página contato.html*/ 
 
 
-.wh-350{
-    width: 350;
-    height: 350;
+.wh-300{
+    width: 300;
+    height: 300;
 }
 
 .tm-social{
@@ -65,4 +65,11 @@
 .tm-logo{
     width: 100px; /* Largura logo*/
     height: 100px; /* Altura logo*/
+}
+
+.container2{
+    display: flex;
+    flex-flow: row; /* Na mesm linha*/
+    justify-content: space-evenly; /* Justificado ao centro*/
+    align-items: center; /* Alinhado ao centro de acordo com a altura da imagem*/
 }
