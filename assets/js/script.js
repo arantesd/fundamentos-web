@@ -37,7 +37,7 @@ function validaEmail(){
     }
 }
 
-/* Validação de assunto, limute caractere*/
+/* Validação de assunto, limite caractere*/
 function validaAssunto(){
     let txtAssunto = document.querySelector("#txtAssunto")
     if (assunto.value.length >= 100){
